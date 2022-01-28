@@ -1,3 +1,6 @@
+// creating and array of objects that hold all the information
+// for the active buisinesses that are customers of the paper buisiness
+
 const bizzies = [
     {
       purchasingAgent: {
@@ -141,6 +144,8 @@ const bizzies = [
     }
   ]
 
+  // defining and exporting a function that makes a copy of the 
+  // business array
 
   export const getBizzy = () => {
       const copyOfBiz = bizzies.map(biz => ({...biz}))

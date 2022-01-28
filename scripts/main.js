@@ -1,14 +1,8 @@
 
+import { bizzy } from "./Business.js"
+import { bizList } from "./BusinessList.js"
+import { getBizzy } from "./database.js"
 
 
-
-const mainContainer = document.querySelector("#container")
-
-const applicationHTML = `
-<h1>Active Bizziez</h1>
-
-
-`
-
-mainContainer.innerHTML = applicationHTML
+bizList()
 

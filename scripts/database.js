@@ -1,4 +1,4 @@
-const businesses = [
+const bizzies = [
     {
       purchasingAgent: {
         nameLast: "Kirlin",
@@ -142,7 +142,7 @@ const businesses = [
   ]
 
 
-  export const businesses = () => {
-      const copyOfBiz = businesses.map(business => ({...business}))
+  export const getBizzy = () => {
+      const copyOfBiz = bizzies.map(biz => ({...biz}))
       return copyOfBiz
   }
